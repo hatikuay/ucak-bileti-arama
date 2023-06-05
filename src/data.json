@@ -1,0 +1,81 @@
+{
+  "flights": [
+    {
+      "id": 1,
+      "from": "Istanbul",
+      "to": "Ankara",
+      "departureDate": "2023-06-05",
+      "departureTime": "09:00",
+      "returnDate": "2023-06-10",
+      "returnTime": "18:30",
+      "price": 150,
+      "airline": "THY"
+    },
+    {
+      "id": 2,
+      "from": "Istanbul",
+      "to": "Izmir",
+      "departureDate": "2023-06-07",
+      "departureTime": "12:30",
+      "returnDate": "2023-06-12",
+      "returnTime": "15:45",
+      "price": 200,
+      "airline": "Pegasus"
+    },
+    {
+      "id": 3,
+      "from": "Ankara",
+      "to": "Izmir",
+      "departureDate": "2023-06-06",
+      "departureTime": "10:15",
+      "returnDate": "2023-06-11",
+      "returnTime": "16:20",
+      "price": 180,
+      "airline": "AnadoluJet"
+    },
+    {
+      "id": 4,
+      "from": "Istanbul",
+      "to": "Antalya",
+      "departureDate": "2023-06-08",
+      "departureTime": "08:45",
+      "returnDate": "2023-06-13",
+      "returnTime": "20:10",
+      "price": 220,
+      "airline": "THY"
+    },
+    {
+      "id": 5,
+      "from": "Antalya",
+      "to": "Izmir",
+      "departureDate": "2023-06-09",
+      "departureTime": "11:30",
+      "returnDate": "2023-06-14",
+      "returnTime": "13:55",
+      "price": 190,
+      "airline": "Pegasus"
+    },
+    {
+      "id": 6,
+      "from": "Ankara",
+      "to": "Antalya",
+      "departureDate": "2023-06-10",
+      "departureTime": "14:20",
+      "returnDate": "2023-06-15",
+      "returnTime": "19:00",
+      "price": 210,
+      "airline": "AnadoluJet"
+    },
+    {
+      "id": 7,
+      "from": "Istanbul",
+      "to": "Ankara",
+      "departureDate": "2023-06-05",
+      "departureTime": "10:00",
+      "returnDate": "2023-06-10",
+      "returnTime": "19:30",
+      "price": 150,
+      "airline": "THY"
+    }
+  ]
+}
