@@ -17,7 +17,7 @@ const FlightList = ({ flights, onSelectFlight }) => {
                 <span className="flight-info">Airline: {flight.airline}</span>
                 <span className="flight-info">Price: {flight.price}</span>
                 <span className="flight-info">Departure Time: {flight.departureTime}</span>
-                <span className="flight-info">Arrival Time: {flight.arrivalTime}</span>
+                <span className="flight-info">Arrival Time: {flight.returnTime}</span>
                 <span className="flight-info">Duration: {flight.duration}</span>
               </div>
               <button className="select-button" onClick={() => onSelectFlight(flight)}>Select</button>

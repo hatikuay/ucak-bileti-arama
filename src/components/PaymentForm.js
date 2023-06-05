@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import './PaymentForm.css';
 
-const PaymentForm = ({ selectedFlight, onPaymentSubmit }) => {
+const PaymentForm = ({ flight, onPaymentSubmit }) => {
   const [name, setName] = useState('');
   const [creditCard, setCreditCard] = useState('');
   const [expiryDate, setExpiryDate] = useState('');
@@ -18,15 +19,19 @@ const PaymentForm = ({ selectedFlight, onPaymentSubmit }) => {
   };
 
   return (
-    <div>
+    <div className="payment-form-container">
       <h2>Ödeme Bilgileri</h2>
-      <div>
+      <div className="selected-flight-info">
         <h3>Seçilen Uçuş Bilgileri:</h3>
         <p>
-          From: {selectedFlight.from} - To: {selectedFlight.to}
+          <span className="flight-info-label">From:</span> {flight.from} - <span className="flight-info-label">To:</span> {flight.to}
         </p>
-        <p>Airline: {selectedFlight.airline}</p>
-        <p>Price: {selectedFlight.price}</p>
+        <p><span className="flight-info-label">Airline:</span> {flight.airline}</p>
+        <p><span className="flight-info-label">Price:</span> {flight.price}</p>
+        <p><span className="flight-info-label">Departure Date:</span> {flight.departureDate}</p>
+        <p><span className="flight-info-label">Arrival Date:</span> {flight.returnDate}</p>
+        <p><span className="flight-info-label">Departure Time:</span> {flight.departureTime}</p>
+        <p><span className="flight-info-label">Arrival Time:</span> {flight.returnTime}</p>
       </div>
       <form onSubmit={handleSubmit}>
         <label>

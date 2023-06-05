@@ -1,0 +1,45 @@
+.payment-form-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .selected-flight-info {
+    margin-bottom: 20px;
+  }
+  
+  .selected-flight-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .flight-info-label {
+    font-weight: bold;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
